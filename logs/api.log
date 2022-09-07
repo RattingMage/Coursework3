@@ -1,0 +1,671 @@
+2022-09-02 11:13:46,663 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-09-02 11:13:46,663 [INFO] [33mPress CTRL+C to quit[0m
+2022-09-02 11:13:50,057 [INFO] Запрос /api/posts/1
+2022-09-02 11:13:50,060 [INFO] 127.0.0.1 - - [02/Sep/2022 11:13:50] "GET /api/posts/1 HTTP/1.1" 200 -
+2022-09-03 16:09:35,366 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-09-03 16:09:35,367 [INFO] [33mPress CTRL+C to quit[0m
+2022-09-03 16:09:44,719 [INFO] 127.0.0.1 - - [03/Sep/2022 16:09:44] "GET / HTTP/1.1" 200 -
+2022-09-03 16:09:45,071 [INFO] 127.0.0.1 - - [03/Sep/2022 16:09:45] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-03 16:09:45,086 [INFO] 127.0.0.1 - - [03/Sep/2022 16:09:45] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-03 16:09:45,129 [INFO] 127.0.0.1 - - [03/Sep/2022 16:09:45] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-03 16:09:50,577 [INFO] 127.0.0.1 - - [03/Sep/2022 16:09:50] "[31m[1mGET /search?search_input=еда HTTP/1.1[0m" 400 -
+2022-09-03 16:11:05,508 [INFO] 127.0.0.1 - - [03/Sep/2022 16:11:05] "[31m[1mGET /search?s=еда HTTP/1.1[0m" 400 -
+2022-09-03 16:11:08,326 [INFO] 127.0.0.1 - - [03/Sep/2022 16:11:08] "[31m[1mGET /search?s=еда HTTP/1.1[0m" 400 -
+2022-09-03 16:11:14,452 [INFO] 127.0.0.1 - - [03/Sep/2022 16:11:14] "[31m[1mGET /search?s=еда HTTP/1.1[0m" 400 -
+2022-09-03 16:11:24,724 [INFO] 127.0.0.1 - - [03/Sep/2022 16:11:24] "GET / HTTP/1.1" 200 -
+2022-09-03 16:11:24,769 [INFO] 127.0.0.1 - - [03/Sep/2022 16:11:24] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-03 16:11:24,771 [INFO] 127.0.0.1 - - [03/Sep/2022 16:11:24] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-03 16:11:24,843 [INFO] 127.0.0.1 - - [03/Sep/2022 16:11:24] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-03 16:15:04,933 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-09-03 16:15:04,933 [INFO] [33mPress CTRL+C to quit[0m
+2022-09-03 16:15:12,024 [INFO] 127.0.0.1 - - [03/Sep/2022 16:15:12] "[31m[1mGET /search?search_input=еда HTTP/1.1[0m" 400 -
+2022-09-03 16:15:17,653 [INFO] 127.0.0.1 - - [03/Sep/2022 16:15:17] "[31m[1mGET /search?search_input=еда HTTP/1.1[0m" 400 -
+2022-09-03 16:15:19,037 [INFO] 127.0.0.1 - - [03/Sep/2022 16:15:19] "[31m[1mGET /search?search_input=еда HTTP/1.1[0m" 400 -
+2022-09-03 16:15:19,687 [INFO] 127.0.0.1 - - [03/Sep/2022 16:15:19] "[31m[1mGET /search?search_input=еда HTTP/1.1[0m" 400 -
+2022-09-03 16:16:12,681 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-09-03 16:16:12,681 [INFO] [33mPress CTRL+C to quit[0m
+2022-09-03 16:16:25,275 [INFO] 127.0.0.1 - - [03/Sep/2022 16:16:25] "GET / HTTP/1.1" 200 -
+2022-09-03 16:16:25,541 [INFO] 127.0.0.1 - - [03/Sep/2022 16:16:25] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-03 16:16:25,543 [INFO] 127.0.0.1 - - [03/Sep/2022 16:16:25] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-03 16:16:25,593 [INFO] 127.0.0.1 - - [03/Sep/2022 16:16:25] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-03 16:16:30,241 [INFO] 127.0.0.1 - - [03/Sep/2022 16:16:30] "POST /search HTTP/1.1" 200 -
+2022-09-03 16:16:30,273 [INFO] 127.0.0.1 - - [03/Sep/2022 16:16:30] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-03 16:16:30,275 [INFO] 127.0.0.1 - - [03/Sep/2022 16:16:30] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-03 16:16:30,277 [INFO] 127.0.0.1 - - [03/Sep/2022 16:16:30] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-03 16:16:41,935 [INFO] 127.0.0.1 - - [03/Sep/2022 16:16:41] "GET / HTTP/1.1" 200 -
+2022-09-03 16:16:41,963 [INFO] 127.0.0.1 - - [03/Sep/2022 16:16:41] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-03 16:16:41,965 [INFO] 127.0.0.1 - - [03/Sep/2022 16:16:41] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-03 16:16:42,004 [INFO] 127.0.0.1 - - [03/Sep/2022 16:16:42] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-03 16:16:45,853 [INFO] 127.0.0.1 - - [03/Sep/2022 16:16:45] "POST /search HTTP/1.1" 200 -
+2022-09-03 16:16:45,883 [INFO] 127.0.0.1 - - [03/Sep/2022 16:16:45] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-03 16:16:45,885 [INFO] 127.0.0.1 - - [03/Sep/2022 16:16:45] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-03 16:16:45,926 [INFO] 127.0.0.1 - - [03/Sep/2022 16:16:45] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-03 16:16:53,687 [INFO] 127.0.0.1 - - [03/Sep/2022 16:16:53] "GET / HTTP/1.1" 200 -
+2022-09-03 16:16:53,712 [INFO] 127.0.0.1 - - [03/Sep/2022 16:16:53] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-03 16:16:53,713 [INFO] 127.0.0.1 - - [03/Sep/2022 16:16:53] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-03 16:16:53,769 [INFO] 127.0.0.1 - - [03/Sep/2022 16:16:53] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-03 16:17:24,568 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:24] "GET / HTTP/1.1" 200 -
+2022-09-03 16:17:24,607 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:24] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-03 16:17:24,610 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:24] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-03 16:17:24,612 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:24] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-03 16:17:28,648 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:28] "POST /search HTTP/1.1" 200 -
+2022-09-03 16:17:28,680 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:28] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-03 16:17:28,682 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:28] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-03 16:17:28,684 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:28] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-03 16:17:32,795 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:32] "GET / HTTP/1.1" 200 -
+2022-09-03 16:17:32,818 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:32] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-03 16:17:32,819 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:32] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-03 16:17:32,855 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:32] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-03 16:17:36,150 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:36] "POST /search HTTP/1.1" 200 -
+2022-09-03 16:17:36,179 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:36] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-03 16:17:36,182 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:36] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-03 16:17:36,221 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:36] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-03 16:17:40,390 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:40] "GET / HTTP/1.1" 200 -
+2022-09-03 16:17:40,415 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:40] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-03 16:17:40,416 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:40] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-03 16:17:40,454 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:40] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-03 16:17:45,251 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:45] "POST /search HTTP/1.1" 200 -
+2022-09-03 16:17:45,284 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:45] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-03 16:17:45,286 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:45] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-03 16:17:45,287 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:45] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-03 16:17:49,514 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:49] "GET / HTTP/1.1" 200 -
+2022-09-03 16:17:49,538 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:49] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-03 16:17:49,539 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:49] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-03 16:17:49,578 [INFO] 127.0.0.1 - - [03/Sep/2022 16:17:49] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:10:13,877 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-09-05 10:10:13,877 [INFO] [33mPress CTRL+C to quit[0m
+2022-09-05 10:10:21,101 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:21] "GET / HTTP/1.1" 200 -
+2022-09-05 10:10:21,515 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:21] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:10:21,531 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:21] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:10:21,587 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:21] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:10:21,707 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-09-05 10:10:25,200 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:25] "GET /users/leo HTTP/1.1" 200 -
+2022-09-05 10:10:25,248 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:25] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:10:25,256 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:25] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:10:25,256 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:25] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:10:30,695 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:30] "GET /post/1 HTTP/1.1" 200 -
+2022-09-05 10:10:30,735 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:30] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:10:30,743 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:30] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:10:30,743 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:30] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:10:37,633 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:37] "GET /post/2 HTTP/1.1" 200 -
+2022-09-05 10:10:37,697 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:37] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:10:37,705 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:37] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:10:37,705 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:37] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:10:42,850 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:42] "[33mGET /post.html HTTP/1.1[0m" 404 -
+2022-09-05 10:10:52,568 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:52] "GET /users/johnny HTTP/1.1" 200 -
+2022-09-05 10:10:52,608 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:52] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:10:52,616 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:52] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:10:52,616 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:52] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:10:56,908 [INFO] 127.0.0.1 - - [05/Sep/2022 10:10:56] "[33mGET /user-feed.html HTTP/1.1[0m" 404 -
+2022-09-05 10:11:54,474 [INFO] 127.0.0.1 - - [05/Sep/2022 10:11:54] "GET / HTTP/1.1" 200 -
+2022-09-05 10:11:54,665 [INFO] 127.0.0.1 - - [05/Sep/2022 10:11:54] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:11:54,673 [INFO] 127.0.0.1 - - [05/Sep/2022 10:11:54] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:11:54,771 [INFO] 127.0.0.1 - - [05/Sep/2022 10:11:54] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:11:56,510 [INFO] 127.0.0.1 - - [05/Sep/2022 10:11:56] "GET /users/leo HTTP/1.1" 200 -
+2022-09-05 10:11:56,574 [INFO] 127.0.0.1 - - [05/Sep/2022 10:11:56] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:11:56,582 [INFO] 127.0.0.1 - - [05/Sep/2022 10:11:56] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:11:56,582 [INFO] 127.0.0.1 - - [05/Sep/2022 10:11:56] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:12:00,697 [INFO] 127.0.0.1 - - [05/Sep/2022 10:12:00] "GET /users/leo HTTP/1.1" 200 -
+2022-09-05 10:12:00,737 [INFO] 127.0.0.1 - - [05/Sep/2022 10:12:00] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:12:00,745 [INFO] 127.0.0.1 - - [05/Sep/2022 10:12:00] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:12:00,745 [INFO] 127.0.0.1 - - [05/Sep/2022 10:12:00] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:12:05,358 [INFO] 127.0.0.1 - - [05/Sep/2022 10:12:05] "GET /users/johnny HTTP/1.1" 200 -
+2022-09-05 10:12:05,406 [INFO] 127.0.0.1 - - [05/Sep/2022 10:12:05] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:12:05,414 [INFO] 127.0.0.1 - - [05/Sep/2022 10:12:05] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:12:05,414 [INFO] 127.0.0.1 - - [05/Sep/2022 10:12:05] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:14:15,002 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-09-05 10:14:15,002 [INFO] [33mPress CTRL+C to quit[0m
+2022-09-05 10:14:20,362 [ERROR] Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\app.py", line 15, in view_index
+    return render_template("index.html", posts=posts)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\templates\index.html", line 56, in template
+    <a href="/post/{{ post["pk"] " class="item__btn-more">Подробнее</a>
+jinja2.exceptions.TemplateSyntaxError: expected token 'end of print statement', got 'string'
+2022-09-05 10:14:20,458 [INFO] 127.0.0.1 - - [05/Sep/2022 10:14:20] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-09-05 10:14:21,925 [ERROR] Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\app.py", line 15, in view_index
+    return render_template("index.html", posts=posts)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\templates\index.html", line 56, in template
+    <a href="/post/{{ post["pk"] " class="item__btn-more">Подробнее</a>
+jinja2.exceptions.TemplateSyntaxError: expected token 'end of print statement', got 'string'
+2022-09-05 10:14:21,933 [INFO] 127.0.0.1 - - [05/Sep/2022 10:14:21] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-09-05 10:14:29,103 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-09-05 10:14:29,103 [INFO] [33mPress CTRL+C to quit[0m
+2022-09-05 10:14:36,344 [ERROR] Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\app.py", line 15, in view_index
+    return render_template("index.html", posts=posts)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\templates\index.html", line 56, in template
+    <a href="/post/{{ post["pk"] " class="item__btn-more">Подробнее</a>
+jinja2.exceptions.TemplateSyntaxError: expected token 'end of print statement', got 'string'
+2022-09-05 10:14:36,352 [INFO] 127.0.0.1 - - [05/Sep/2022 10:14:36] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-09-05 10:15:49,298 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-09-05 10:15:49,298 [INFO] [33mPress CTRL+C to quit[0m
+2022-09-05 10:15:52,722 [INFO] 127.0.0.1 - - [05/Sep/2022 10:15:52] "GET / HTTP/1.1" 200 -
+2022-09-05 10:15:52,918 [INFO] 127.0.0.1 - - [05/Sep/2022 10:15:52] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:15:52,918 [INFO] 127.0.0.1 - - [05/Sep/2022 10:15:52] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:15:52,958 [INFO] 127.0.0.1 - - [05/Sep/2022 10:15:52] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:15:55,925 [ERROR] Exception on /post/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\app.py", line 37, in view_post
+    return render_template('post.html', post=post, comments=comments, count_comments=count_comments)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\templates\post.html", line 31, in template
+    <a href="/users/{{ post["poster_name }}" class="item__head">
+jinja2.exceptions.TemplateSyntaxError: expected token ',', got 'class'
+2022-09-05 10:15:55,933 [INFO] 127.0.0.1 - - [05/Sep/2022 10:15:55] "[35m[1mGET /post/1 HTTP/1.1[0m" 500 -
+2022-09-05 10:16:21,197 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-09-05 10:16:21,197 [INFO] [33mPress CTRL+C to quit[0m
+2022-09-05 10:16:23,651 [ERROR] Exception on /post/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\app.py", line 37, in view_post
+    return render_template('post.html', post=post, comments=comments, count_comments=count_comments)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\templates\post.html", line 31, in template
+    <a href="/users/{{ post["poster_name }}" class="item__head">
+jinja2.exceptions.TemplateSyntaxError: expected token ',', got 'class'
+2022-09-05 10:16:23,659 [INFO] 127.0.0.1 - - [05/Sep/2022 10:16:23] "[35m[1mGET /post/1 HTTP/1.1[0m" 500 -
+2022-09-05 10:16:24,896 [ERROR] Exception on /post/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\app.py", line 37, in view_post
+    return render_template('post.html', post=post, comments=comments, count_comments=count_comments)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\templates\post.html", line 31, in template
+    <a href="/users/{{ post["poster_name }}" class="item__head">
+jinja2.exceptions.TemplateSyntaxError: expected token ',', got 'class'
+2022-09-05 10:16:24,896 [INFO] 127.0.0.1 - - [05/Sep/2022 10:16:24] "[35m[1mGET /post/1 HTTP/1.1[0m" 500 -
+2022-09-05 10:16:25,615 [ERROR] Exception on /post/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\app.py", line 37, in view_post
+    return render_template('post.html', post=post, comments=comments, count_comments=count_comments)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\templates\post.html", line 31, in template
+    <a href="/users/{{ post["poster_name }}" class="item__head">
+jinja2.exceptions.TemplateSyntaxError: expected token ',', got 'class'
+2022-09-05 10:16:25,615 [INFO] 127.0.0.1 - - [05/Sep/2022 10:16:25] "[35m[1mGET /post/1 HTTP/1.1[0m" 500 -
+2022-09-05 10:16:25,809 [ERROR] Exception on /post/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\app.py", line 37, in view_post
+    return render_template('post.html', post=post, comments=comments, count_comments=count_comments)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\templates\post.html", line 31, in template
+    <a href="/users/{{ post["poster_name }}" class="item__head">
+jinja2.exceptions.TemplateSyntaxError: expected token ',', got 'class'
+2022-09-05 10:16:25,809 [INFO] 127.0.0.1 - - [05/Sep/2022 10:16:25] "[35m[1mGET /post/1 HTTP/1.1[0m" 500 -
+2022-09-05 10:16:26,030 [ERROR] Exception on /post/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\app.py", line 37, in view_post
+    return render_template('post.html', post=post, comments=comments, count_comments=count_comments)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\templates\post.html", line 31, in template
+    <a href="/users/{{ post["poster_name }}" class="item__head">
+jinja2.exceptions.TemplateSyntaxError: expected token ',', got 'class'
+2022-09-05 10:16:26,030 [INFO] 127.0.0.1 - - [05/Sep/2022 10:16:26] "[35m[1mGET /post/1 HTTP/1.1[0m" 500 -
+2022-09-05 10:16:59,332 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-09-05 10:16:59,332 [INFO] [33mPress CTRL+C to quit[0m
+2022-09-05 10:17:01,834 [ERROR] Exception on /post/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\app.py", line 37, in view_post
+    return render_template('post.html', post=post, comments=comments, count_comments=count_comments)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\templates\post.html", line 31, in template
+    <a href="/users/{{ post["poster_name] }}" class="item__head">
+jinja2.exceptions.TemplateSyntaxError: expected token ',', got 'class'
+2022-09-05 10:17:01,841 [INFO] 127.0.0.1 - - [05/Sep/2022 10:17:01] "[35m[1mGET /post/1 HTTP/1.1[0m" 500 -
+2022-09-05 10:17:02,975 [ERROR] Exception on /post/1 [GET]
+Traceback (most recent call last):
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\app.py", line 37, in view_post
+    return render_template('post.html', post=post, comments=comments, count_comments=count_comments)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\templates\post.html", line 31, in template
+    <a href="/users/{{ post["poster_name] }}" class="item__head">
+jinja2.exceptions.TemplateSyntaxError: expected token ',', got 'class'
+2022-09-05 10:17:02,975 [INFO] 127.0.0.1 - - [05/Sep/2022 10:17:02] "[35m[1mGET /post/1 HTTP/1.1[0m" 500 -
+2022-09-05 10:19:04,508 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-09-05 10:19:04,508 [INFO] [33mPress CTRL+C to quit[0m
+2022-09-05 10:19:08,115 [INFO] 127.0.0.1 - - [05/Sep/2022 10:19:08] "GET /post/1 HTTP/1.1" 200 -
+2022-09-05 10:19:08,276 [INFO] 127.0.0.1 - - [05/Sep/2022 10:19:08] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:19:08,367 [INFO] 127.0.0.1 - - [05/Sep/2022 10:19:08] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:19:08,375 [INFO] 127.0.0.1 - - [05/Sep/2022 10:19:08] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:19:13,666 [INFO] 127.0.0.1 - - [05/Sep/2022 10:19:13] "GET /post/1 HTTP/1.1" 200 -
+2022-09-05 10:19:13,706 [INFO] 127.0.0.1 - - [05/Sep/2022 10:19:13] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:19:13,706 [INFO] 127.0.0.1 - - [05/Sep/2022 10:19:13] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:19:13,754 [INFO] 127.0.0.1 - - [05/Sep/2022 10:19:13] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:19:15,253 [INFO] 127.0.0.1 - - [05/Sep/2022 10:19:15] "GET /users/leo HTTP/1.1" 200 -
+2022-09-05 10:19:15,309 [INFO] 127.0.0.1 - - [05/Sep/2022 10:19:15] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:19:15,309 [INFO] 127.0.0.1 - - [05/Sep/2022 10:19:15] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:19:15,317 [INFO] 127.0.0.1 - - [05/Sep/2022 10:19:15] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:19:17,035 [INFO] 127.0.0.1 - - [05/Sep/2022 10:19:17] "[33mGET /user-feed.html HTTP/1.1[0m" 404 -
+2022-09-05 10:19:20,209 [INFO] 127.0.0.1 - - [05/Sep/2022 10:19:20] "[33mGET /user-feed.html HTTP/1.1[0m" 404 -
+2022-09-05 10:23:30,438 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-09-05 10:23:30,438 [INFO] [33mPress CTRL+C to quit[0m
+2022-09-05 10:23:36,017 [INFO] 127.0.0.1 - - [05/Sep/2022 10:23:36] "GET / HTTP/1.1" 200 -
+2022-09-05 10:23:36,217 [INFO] 127.0.0.1 - - [05/Sep/2022 10:23:36] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:23:36,234 [INFO] 127.0.0.1 - - [05/Sep/2022 10:23:36] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:23:36,274 [INFO] 127.0.0.1 - - [05/Sep/2022 10:23:36] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:23:38,766 [INFO] 127.0.0.1 - - [05/Sep/2022 10:23:38] "GET /users/leo HTTP/1.1" 200 -
+2022-09-05 10:23:38,809 [INFO] 127.0.0.1 - - [05/Sep/2022 10:23:38] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:23:38,817 [INFO] 127.0.0.1 - - [05/Sep/2022 10:23:38] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:23:38,817 [INFO] 127.0.0.1 - - [05/Sep/2022 10:23:38] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:23:40,833 [INFO] 127.0.0.1 - - [05/Sep/2022 10:23:40] "[33mGET /user-feed.html HTTP/1.1[0m" 404 -
+2022-09-05 10:26:12,365 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-09-05 10:26:12,365 [INFO] [33mPress CTRL+C to quit[0m
+2022-09-05 10:26:15,068 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:15] "GET /users/leo HTTP/1.1" 200 -
+2022-09-05 10:26:15,221 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:15] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:26:15,237 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:15] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:26:15,277 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:15] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:26:17,228 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:17] "GET /users/leo HTTP/1.1" 200 -
+2022-09-05 10:26:17,259 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:17] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:26:17,268 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:17] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:26:17,317 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:17] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:26:18,693 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:18] "GET /users/leo HTTP/1.1" 200 -
+2022-09-05 10:26:18,733 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:18] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:26:18,733 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:18] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:26:18,765 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:18] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:26:20,749 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:20] "[33mGET /post/1%20class= HTTP/1.1[0m" 404 -
+2022-09-05 10:26:29,822 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:29] "GET /post/1 HTTP/1.1" 200 -
+2022-09-05 10:26:29,868 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:29] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:26:29,876 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:29] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:26:29,876 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:29] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:26:34,256 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:34] "GET /users/leo HTTP/1.1" 200 -
+2022-09-05 10:26:34,296 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:34] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:26:34,304 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:34] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:26:34,304 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:34] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:26:39,233 [INFO] 127.0.0.1 - - [05/Sep/2022 10:26:39] "[33mGET /post/1%20class= HTTP/1.1[0m" 404 -
+2022-09-05 10:27:15,239 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-09-05 10:27:15,239 [INFO] [33mPress CTRL+C to quit[0m
+2022-09-05 10:27:17,700 [INFO] 127.0.0.1 - - [05/Sep/2022 10:27:17] "[33mGET /post/1%20class= HTTP/1.1[0m" 404 -
+2022-09-05 10:27:20,302 [INFO] 127.0.0.1 - - [05/Sep/2022 10:27:20] "GET /post/1 HTTP/1.1" 200 -
+2022-09-05 10:27:20,414 [INFO] 127.0.0.1 - - [05/Sep/2022 10:27:20] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:27:20,525 [INFO] 127.0.0.1 - - [05/Sep/2022 10:27:20] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:27:20,525 [INFO] 127.0.0.1 - - [05/Sep/2022 10:27:20] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:27:24,097 [ERROR] Exception on /users/leo [GET]
+Traceback (most recent call last):
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\app.py", line 50, in view_users
+    return render_template('user-feed.html', posts=posts, username=username)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\templates\user-feed.html", line 47, in template
+    <a href="/post/{{ post["pk"]" }} class="item__btn-more">Подробнее</a>
+jinja2.exceptions.TemplateSyntaxError: expected token 'end of print statement', got 'string'
+2022-09-05 10:27:24,105 [INFO] 127.0.0.1 - - [05/Sep/2022 10:27:24] "[35m[1mGET /users/leo HTTP/1.1[0m" 500 -
+2022-09-05 10:27:27,124 [ERROR] Exception on /users/leo [GET]
+Traceback (most recent call last):
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\app.py", line 50, in view_users
+    return render_template('user-feed.html', posts=posts, username=username)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\andre\Desktop\Skypro\Coursework3\coursework2_source\templates\user-feed.html", line 47, in template
+    <a href="/post/{{ post["pk"]" }} class="item__btn-more">Подробнее</a>
+jinja2.exceptions.TemplateSyntaxError: expected token 'end of print statement', got 'string'
+2022-09-05 10:27:27,124 [INFO] 127.0.0.1 - - [05/Sep/2022 10:27:27] "[35m[1mGET /users/leo HTTP/1.1[0m" 500 -
+2022-09-05 10:27:51,892 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-09-05 10:27:51,892 [INFO] [33mPress CTRL+C to quit[0m
+2022-09-05 10:27:54,003 [INFO] 127.0.0.1 - - [05/Sep/2022 10:27:54] "GET /users/leo HTTP/1.1" 200 -
+2022-09-05 10:27:54,115 [INFO] 127.0.0.1 - - [05/Sep/2022 10:27:54] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:27:54,227 [INFO] 127.0.0.1 - - [05/Sep/2022 10:27:54] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:27:54,235 [INFO] 127.0.0.1 - - [05/Sep/2022 10:27:54] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:27:56,939 [INFO] 127.0.0.1 - - [05/Sep/2022 10:27:56] "GET /post/1 HTTP/1.1" 200 -
+2022-09-05 10:27:56,979 [INFO] 127.0.0.1 - - [05/Sep/2022 10:27:56] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:27:56,979 [INFO] 127.0.0.1 - - [05/Sep/2022 10:27:56] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:27:56,979 [INFO] 127.0.0.1 - - [05/Sep/2022 10:27:56] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:28:00,689 [INFO] 127.0.0.1 - - [05/Sep/2022 10:28:00] "GET / HTTP/1.1" 200 -
+2022-09-05 10:28:00,745 [INFO] 127.0.0.1 - - [05/Sep/2022 10:28:00] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:28:00,745 [INFO] 127.0.0.1 - - [05/Sep/2022 10:28:00] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:28:00,801 [INFO] 127.0.0.1 - - [05/Sep/2022 10:28:00] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:28:05,010 [INFO] 127.0.0.1 - - [05/Sep/2022 10:28:05] "GET /users/johnny HTTP/1.1" 200 -
+2022-09-05 10:28:05,058 [INFO] 127.0.0.1 - - [05/Sep/2022 10:28:05] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:28:05,066 [INFO] 127.0.0.1 - - [05/Sep/2022 10:28:05] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:28:05,066 [INFO] 127.0.0.1 - - [05/Sep/2022 10:28:05] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:28:10,594 [INFO] 127.0.0.1 - - [05/Sep/2022 10:28:10] "GET /post/2 HTTP/1.1" 200 -
+2022-09-05 10:28:10,642 [INFO] 127.0.0.1 - - [05/Sep/2022 10:28:10] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:28:10,650 [INFO] 127.0.0.1 - - [05/Sep/2022 10:28:10] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:28:10,658 [INFO] 127.0.0.1 - - [05/Sep/2022 10:28:10] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:28:15,237 [INFO] 127.0.0.1 - - [05/Sep/2022 10:28:15] "GET / HTTP/1.1" 200 -
+2022-09-05 10:28:15,277 [INFO] 127.0.0.1 - - [05/Sep/2022 10:28:15] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:28:15,277 [INFO] 127.0.0.1 - - [05/Sep/2022 10:28:15] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:28:15,325 [INFO] 127.0.0.1 - - [05/Sep/2022 10:28:15] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:33:08,964 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-09-05 10:33:08,964 [INFO] [33mPress CTRL+C to quit[0m
+2022-09-05 10:33:17,909 [INFO] 127.0.0.1 - - [05/Sep/2022 10:33:17] "POST /search HTTP/1.1" 200 -
+2022-09-05 10:33:18,150 [INFO] 127.0.0.1 - - [05/Sep/2022 10:33:18] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:33:18,162 [INFO] 127.0.0.1 - - [05/Sep/2022 10:33:18] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:33:18,164 [INFO] 127.0.0.1 - - [05/Sep/2022 10:33:18] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:33:21,450 [INFO] 127.0.0.1 - - [05/Sep/2022 10:33:21] "GET /post/5 HTTP/1.1" 200 -
+2022-09-05 10:33:21,482 [INFO] 127.0.0.1 - - [05/Sep/2022 10:33:21] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:33:21,482 [INFO] 127.0.0.1 - - [05/Sep/2022 10:33:21] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:33:21,538 [INFO] 127.0.0.1 - - [05/Sep/2022 10:33:21] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:33:25,517 [INFO] 127.0.0.1 - - [05/Sep/2022 10:33:25] "GET /post/5 HTTP/1.1" 200 -
+2022-09-05 10:33:25,565 [INFO] 127.0.0.1 - - [05/Sep/2022 10:33:25] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:33:25,573 [INFO] 127.0.0.1 - - [05/Sep/2022 10:33:25] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:33:25,629 [INFO] 127.0.0.1 - - [05/Sep/2022 10:33:25] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:33:29,771 [INFO] 127.0.0.1 - - [05/Sep/2022 10:33:29] "GET /users/leo HTTP/1.1" 200 -
+2022-09-05 10:33:29,819 [INFO] 127.0.0.1 - - [05/Sep/2022 10:33:29] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:33:29,867 [INFO] 127.0.0.1 - - [05/Sep/2022 10:33:29] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:33:29,875 [INFO] 127.0.0.1 - - [05/Sep/2022 10:33:29] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-05 10:33:33,197 [INFO] 127.0.0.1 - - [05/Sep/2022 10:33:33] "GET /users/leo HTTP/1.1" 200 -
+2022-09-05 10:33:33,229 [INFO] 127.0.0.1 - - [05/Sep/2022 10:33:33] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-05 10:33:33,229 [INFO] 127.0.0.1 - - [05/Sep/2022 10:33:33] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-05 10:33:33,285 [INFO] 127.0.0.1 - - [05/Sep/2022 10:33:33] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-07 19:41:53,744 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-09-07 19:41:53,744 [INFO] [33mPress CTRL+C to quit[0m
+2022-09-07 19:42:09,882 [INFO] 127.0.0.1 - - [07/Sep/2022 19:42:09] "GET / HTTP/1.1" 200 -
+2022-09-07 19:42:10,162 [INFO] 127.0.0.1 - - [07/Sep/2022 19:42:10] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-07 19:42:10,162 [INFO] 127.0.0.1 - - [07/Sep/2022 19:42:10] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-07 19:42:10,218 [INFO] 127.0.0.1 - - [07/Sep/2022 19:42:10] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-07 19:42:13,474 [INFO] 127.0.0.1 - - [07/Sep/2022 19:42:13] "GET /post/1 HTTP/1.1" 200 -
+2022-09-07 19:42:13,530 [INFO] 127.0.0.1 - - [07/Sep/2022 19:42:13] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-07 19:42:13,538 [INFO] 127.0.0.1 - - [07/Sep/2022 19:42:13] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-07 19:42:13,538 [INFO] 127.0.0.1 - - [07/Sep/2022 19:42:13] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-07 20:03:18,747 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-09-07 20:03:18,747 [INFO] [33mPress CTRL+C to quit[0m
+2022-09-07 20:03:38,749 [INFO] 127.0.0.1 - - [07/Sep/2022 20:03:38] "GET / HTTP/1.1" 200 -
+2022-09-07 20:03:39,141 [INFO] 127.0.0.1 - - [07/Sep/2022 20:03:39] "GET /static/css/styles.min.css HTTP/1.1" 200 -
+2022-09-07 20:03:39,149 [INFO] 127.0.0.1 - - [07/Sep/2022 20:03:39] "GET /static/img/bookmark.png HTTP/1.1" 200 -
+2022-09-07 20:03:39,221 [INFO] 127.0.0.1 - - [07/Sep/2022 20:03:39] "GET /static/img/eye.png HTTP/1.1" 200 -
+2022-09-07 20:03:40,582 [INFO] 127.0.0.1 - - [07/Sep/2022 20:03:40] "GET /post/1 HTTP/1.1" 200 -
+2022-09-07 20:03:40,630 [INFO] 127.0.0.1 - - [07/Sep/2022 20:03:40] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-07 20:03:40,638 [INFO] 127.0.0.1 - - [07/Sep/2022 20:03:40] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-07 20:03:40,638 [INFO] 127.0.0.1 - - [07/Sep/2022 20:03:40] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-07 20:03:42,152 [INFO] 127.0.0.1 - - [07/Sep/2022 20:03:42] "GET /users/leo HTTP/1.1" 200 -
+2022-09-07 20:03:42,200 [INFO] 127.0.0.1 - - [07/Sep/2022 20:03:42] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-07 20:03:42,208 [INFO] 127.0.0.1 - - [07/Sep/2022 20:03:42] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-07 20:03:42,208 [INFO] 127.0.0.1 - - [07/Sep/2022 20:03:42] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-09-07 20:03:46,949 [INFO] 127.0.0.1 - - [07/Sep/2022 20:03:46] "GET / HTTP/1.1" 200 -
+2022-09-07 20:03:47,007 [INFO] 127.0.0.1 - - [07/Sep/2022 20:03:47] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-09-07 20:03:47,015 [INFO] 127.0.0.1 - - [07/Sep/2022 20:03:47] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-09-07 20:03:47,015 [INFO] 127.0.0.1 - - [07/Sep/2022 20:03:47] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
